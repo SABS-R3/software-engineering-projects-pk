@@ -2,9 +2,9 @@ name: Coverage
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "dev" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "dev" ]
   workflow_dispatch:
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
 
     - name: Run coverage
       run: |
-        pytest --cov-config=.coveragerc --cov=./ci_course --cov-report=xml
+        pytest --cov-config=.coveragerc --cov=. --cov-report=xml --cov-branch
         cat coverage.xml
 
     - name: Upload coverage reports to Codecov
