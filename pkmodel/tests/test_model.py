@@ -1,6 +1,7 @@
 import unittest
 import pkmodel as pk
-
+import pytest
+import pytest-cov
 
 class ModelTest(unittest.TestCase):
     """
