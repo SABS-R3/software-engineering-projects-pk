@@ -52,5 +52,29 @@ class Solution:
 
         plt.savefig('plot.png')
 
+
+import numpy as np
+import matplotlib.pyplot as plt
+t_eval = np.linspace(0,10,100)
+q_c = t_eval +2
+q_p1 = t_eval +3
+
+def visualise(t_eval, q_c, q_p1):
+    fig, ax = plt.subplots()
+    #plt.plot(t_eval, q_c, label=Model.name + '- q_c')
+    #plt.plot(t_eval, q_p1, label=Model.name + '- q_p1')
+    ax.plot(t_eval, q_c)
+    ax.plot(t_eval, q_p1)
+    #plt.legend()
+    ax.set_ylabel('drug mass (ng)')
+    ax.set_xlabel('time [h]')
+
+    plt.show()
+    return fig
+
+visualise(t_eval, q_c, q_p1)
+
+
+
 ## package importing
 
