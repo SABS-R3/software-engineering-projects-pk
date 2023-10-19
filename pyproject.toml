@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkmodel"
+version = "0.0.1"
+authors = [
+  { name="Rhiannon Ackland", email="author@example.com" },
+  { name="Sarah Bull", email="author@example.com" },
+  { name="Sixtine Dromigny", email="author@example.com" },
+  { name="Robert Doane-Solomon", email="author@example.com" },
+  { name="Tristram Walsh", email="author@example.com" },
+  ]
+description = "pkmodel is a Pharmokinetic modelling library."
+readme = "README.md"  
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Linux",
+]
+dependencies =[
+  'numpy',
+  'matplotlib',
+  'scipy',
+  'pytest',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/robertdoanesolomon/software-engineering-projects-pk"
+"Bug Tracker" = "https://github.com/robertdoanesolomon/software-engineering-projects-pk/issues"
