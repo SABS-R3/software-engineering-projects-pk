@@ -1,7 +1,6 @@
 import unittest
 import pkmodel as pk
 
-
 class ModelTest(unittest.TestCase):
     """
     Tests the :class:`Model` class.
