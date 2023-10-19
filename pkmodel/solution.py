@@ -56,7 +56,7 @@ class Solution:
 import numpy as np
 import matplotlib.pyplot as plt
 t_eval = np.linspace(0,10,100)
-q_c = t_eval +2
+q_c = t_eval +20
 q_p1 = t_eval +3
 
 def visualise(t_eval, q_c, q_p1):
