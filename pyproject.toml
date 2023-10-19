@@ -6,11 +6,11 @@ build-backend = "setuptools.build_meta"
 name = "pkmodel"
 version = "0.0.1"
 authors = [
-  { name="Rhiannon Ackland, email="author@example.com" },
-  { name="Sarah Bull, email="author@example.com" },
-  { name="Sixtine Dromigny, email="author@example.com" },
-  { name="Robert Doane-Solomon, email="author@example.com" },
-  { name="Tristram Walsh, email="author@example.com" },
+  { name="Rhiannon Ackland", email="author@example.com" },
+  { name="Sarah Bull", email="author@example.com" },
+  { name="Sixtine Dromigny", email="author@example.com" },
+  { name="Robert Doane-Solomon", email="author@example.com" },
+  { name="Tristram Walsh", email="author@example.com" },
   ]
 description = "pkmodel is a Pharmokinetic modelling library."
 readme = "README.md"  
