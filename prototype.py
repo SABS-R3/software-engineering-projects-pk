@@ -13,7 +13,7 @@ def IV(t, y, Q_p1, V_c, V_p1, CL, X):
     dqc_dt = dose(t, X) - q_c / V_c * CL - transition
     dqp1_dt = transition
     return [dqc_dt, dqp1_dt]
-
+print(IV(2,[1,2],3,4,5,6,7))
 model1_args = {
     'name': 'model1',
     'Q_p1': 1.0,
